@@ -57,7 +57,7 @@ const Navbar = ({ show }) => {
           alt="Olividay Logo"
           priority
           className={`transition-all duration-500 ease-in-out ${scrolled
-              ? 'w-[60px] md:w-[60px] opacity-90'
+              ? 'w-[70px] md:w-[70px] opacity-100 -mt-3'
               : 'w-[130px] md:w-[180px] opacity-100'
             } h-auto`}
         />
