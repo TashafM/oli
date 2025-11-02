@@ -20,10 +20,10 @@ const AboutSchool = () => {
                 <Image src={logo} alt="olividya school logo" className="w-[180px] md:w-[300px] mb-5 m-auto" />
                 <h1 className="text-3xl md:text-7xl font-bold mb-4 text-[#273e06]">About Our School</h1>
                 <p className="max-w-5xl mx-auto text-[14px] md:text-xl md:mt-10 text-gray-600 md:leading-loose leading-relaxed  text-center">
-                    Welcome to <b>Olividya</b> -- an ICSE board school for girls that combines modern education with strong moral and spiritual values. Currently up to class 7<sup>th</sup> (proposed till 12<sup>th</sup>), our school aims to shape confident, creative, and compassionate young girls through academic excellence, sports, and Deeniyat education.
+                    Welcome to <b>Olividya - The Girls Academy</b> -- an ICSE board school for girls that combines modern education with strong moral and spiritual values. Currently up to class 7<sup>th</sup> (proposed till 12<sup>th</sup>), our school aims to shape confident, creative, and compassionate young girls through academic excellence, sports, and Deeniyat education.
                 </p>
 
-                <div className="drawer-bg cursor-pointer mt-6 w-[80%]  py-2 rounded-full md:text-xl md:w-fit m-auto md:px-10 md:mt-10 md:py-3">
+                <div className="drawer-bg cursor-pointer mt-6 w-[80%]  py-2 rounded-full md:text-xl md:w-fit m-auto md:px-10 md:mt-10 md:py-3" >
                     Read More
                 </div>
             </div>
