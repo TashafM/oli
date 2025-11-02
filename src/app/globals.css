@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.primary-color {
+  background: rgba(212, 230, 96, 0.904);
+}
+
+.drawer-bg {
+  background-color: #273e06;
+}
