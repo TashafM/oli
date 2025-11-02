@@ -11,13 +11,14 @@ const manrope = Manrope({
 
 export const metadata = {
   title: {
-    default: "Olividya Girls' School | ICSE with Deeniyat",
+    default: "Olividya - The Girls Academy | ICSE with Deeniyat",
     template: "%s | Olividya Girls' School",
   },
   description:
-    "Olividya Girls' School offers holistic ICSE education integrated with Deeniyat, sports, robotics, and values-based learning — nurturing confident, compassionate, and capable young women.",
+    "Olividya - The Girls Academy offers holistic ICSE education integrated with Deeniyat, sports, robotics, and values-based learning — nurturing confident, compassionate, and capable young women.",
   keywords: [
     "Olividya",
+    "Olividya - The Girls Academy",
     "ICSE girls school",
     "Islamic school",
     "Deeniyat education",
@@ -27,9 +28,9 @@ export const metadata = {
     "gardening activities",
     "swimming skating basketball taekwondo",
   ],
-  authors: [{ name: "Olividya Girls' School" }],
+  authors: [{ name: "Olividya - The Girls Academy" }],
   creator: "Olividya",
-  publisher: "Olividya Girls' School",
+  publisher: "Olividya - The Girls Academy",
   robots: {
     index: true,
     follow: true,
@@ -42,11 +43,11 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "Olividya Girls' School | ICSE with Deeniyat",
+    title: "Olividya - The Girls Academy | ICSE with Deeniyat",
     description:
-      "An ICSE girls’ school blending academic excellence with Islamic values, co-curriculars, and character building.",
+      "An ICSE girls school blending academic excellence with Islamic values, co-curriculars, and character building.",
     url: "https://olividya.vercel.app",
-    siteName: "Olividya Girls' School",
+    siteName: "Olividya - The Girls Academy",
     images: [
       {
         url: "https://res.cloudinary.com/dxsjfends/image/upload/v1762065462/Olividya_school_lh3ruj.png", // put this in /public
@@ -60,7 +61,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Olividya Girls' School | ICSE with Deeniyat",
+    title: "Olividya - The Girls Academy | ICSE with Deeniyat",
     description:
       "Holistic education for girls — academics, faith, sports, and innovation.",
     images: ["https://res.cloudinary.com/dxsjfends/image/upload/v1762065462/Olividya_school_lh3ruj.png"],
