@@ -1,13 +1,9 @@
-import React from 'react'
-import PaymentButton from '../_components/RazorpayButton'
-import RazorpayButton from '../_components/RazorpayButton'
+import AdmissionForm from "../_components/AdmissionForm";
 
-const Admission = () => {
+export default function AdmissionPage() {
   return (
-    <div className='h-screen flex items-center justify-center'>
-       <RazorpayButton/>
-    </div>
-  )
+    <main className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <AdmissionForm />
+    </main>
+  );
 }
-
-export default Admission
