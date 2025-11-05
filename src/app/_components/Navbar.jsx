@@ -75,8 +75,8 @@ const Navbar = ({ show }) => {
           </Link>
         </li>
         <li>
-          <Link href="#" className="hover:opacity-80 transition">
-            Services
+          <Link href="admissions" className="hover:opacity-80 transition">
+            Admission
           </Link>
         </li>
         <li>
