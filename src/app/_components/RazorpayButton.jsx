@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import axios from 'axios';
+import logo from '../../../public/olividya.png'
 
 export default function RazorpayButton({ amount = 10000 /* ₹100 in paise */ }) {
   const [loading, setLoading] = useState(false);
@@ -24,7 +25,7 @@ export default function RazorpayButton({ amount = 10000 /* ₹100 in paise */ })
         currency: order.currency,
         name: 'Olividya - The Girls Academy',
         description: 'Admission Form Payment',
-        image: '/olividya.png', // ✅ loads logo from public folder
+        image: logo, // ✅ loads logo from public folder
         order_id: order.id,
         handler: async function (response) {
           try {
