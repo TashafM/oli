@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import axios from 'axios';
+import logo from '../../../public/olividya.png'
 
 export default function AdmissionForm() {
   const [formData, setFormData] = useState({
@@ -43,7 +44,7 @@ export default function AdmissionForm() {
         currency: order.currency,
         name: 'Olividya - The Girls Academy',
         description: 'Admission Form Payment',
-        image: '/logo.png', // ✅ from public folder
+        image: logo, // ✅ from public folder
         order_id: order.id,
         handler: async function (response) {
           try {
